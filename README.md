@@ -1,10 +1,10 @@
 # Continuous Non-Invasive Blood Pressure Estimation (MATLAB) — DTT Framework
 
-Estimate blood pressure continuously using a signal-processing pipeline centered on **Diastolic Transit Time (DTT)** features.
+Novel continuous blood pressure estimation using a signal-processing pipeline centered on **Diastolic Transit Time (DTT)** features and raw hemodynamic signals from a **Textile Antenna**.
 
 ## Demo
 - ![alt text](image.png)
-- Example outputs: DTT over time, beat rejection results, calibration curve.
+- Example outputs: Estimated BP waveform, BP readings. (Adjustable as needed)
 
 ## What I built
 - End-to-end MATLAB pipeline for:
@@ -15,12 +15,13 @@ Estimate blood pressure continuously using a signal-processing pipeline centered
   - evaluation (MAE / bias / SD / Bland-Altman)
 
 ## Why it matters
-Cuff-less BP measurement is desirable for wearable monitoring. This project explores a practical pipeline using time-based features.
+Cuff-less BP measurement is desirable for wearable monitoring. This project explores a novel and practical pipeline using time-based features, using hemodynamic data collected using a fully **Textile Antenna** on a human subject
 
 ## Tech stack
 - MATLAB
 - Signal processing + feature extraction
 - Calibration 
+Note: pipeline requires rawdata from sensor. (Textile Antenna in this case. Input: S11 Magnitude vs Time)
 
 ## Results (example)
 - SBP MAE: 16.5 mmHg
