@@ -3,7 +3,7 @@
 Novel continuous blood pressure estimation using a signal-processing pipeline centered on **Diastolic Transit Time (DTT)** features and raw hemodynamic signals from a **Textile Antenna**.
 
 ## Demo
-- ![alt text](image.png)
+![alt text](image.png)
 - Example outputs: Estimated BP waveform, BP readings. (Adjustable as needed)
 
 ## What I built
